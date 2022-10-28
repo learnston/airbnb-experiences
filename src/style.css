@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+.navbar {
+  box-shadow: 0 1px 20px -7px #888888;
+}
+
+.logo {
+  padding: 23px;
+}
+
+.hero {
+  padding: 50px 30px;
+}
+
+.photoGrid {
+  display: block;
+  margin: 0 auto;
+  padding-right: 130px;
+}
+
+.heading {
+  line-height: 110%;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 60px 0 16px;
+}
+
+.sub-heading {
+  line-height: 110%;
+  font-size: 16px;
+  margin: 0;
+  width: 320px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* justify-content: center;  */
+  flex: 0 0 50%;
+  overflow: auto;
+}
+
+.card {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.photo {
+  width: 275px;
+  border-radius: 9px;
+}
+
+.img-wrap {
+  position: relative;
+}
+
+.status {
+  background-color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  width: 61px;
+  height: 20px;
+  border-radius: 2px;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  font-size: 9.8px;
+  line-height: 22px;
+}
+
+.star {
+  width: 13px;
+}
+
+.info {
+  margin: 0;
+  font-size: 12px;
+}
+
+.contrast {
+  color: #918e9b;
+}
+
+.strong {
+  font-weight: bold;
+}
