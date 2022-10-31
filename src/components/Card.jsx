@@ -10,7 +10,7 @@ export default function Card(props) {
     badgeText = 'Online'
   }
 
-  const src = `src/assets/${props.item.coverImg}`
+  const src = `/src/assets/${props.item.coverImg}`
 
   return (
     <div className="card">
