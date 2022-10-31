@@ -17,7 +17,7 @@ export default function Card(props) {
       <div className="img-wrap">
         {badgeText && <div className="status">{badgeText}</div>}
 
-        <img src={props.item.coverImg} className="photo" alt="" />
+        <img src="/src/assets/bike.png" className="photo" alt="" />
       </div>
       <p className="rating info">
         <img src={star} className="star" alt="" /> {props.item.rating}{' '}
