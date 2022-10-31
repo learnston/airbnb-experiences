@@ -10,14 +10,18 @@ export default function Card(props) {
     badgeText = 'Online'
   }
 
-  const src = `/src/assets/${props.item.coverImg}`
-
+  // const src = `/src/assets/${props.item.coverImg}`
+  console.log(props)
   return (
     <div className="card">
       <div className="img-wrap">
         {badgeText && <div className="status">{badgeText}</div>}
 
-        <img src={src} className="photo" alt="" />
+        <img
+          src={`./src/assets/${props.item.coverImg}`}
+          className="photo"
+          alt=""
+        />
       </div>
       <p className="rating info">
         <img src={star} className="star" alt="" /> {props.item.rating}{' '}
